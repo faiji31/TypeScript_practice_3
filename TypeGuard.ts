@@ -17,3 +17,19 @@ add(2,2)
 add(2,"2")
 add("2",2)
 add("2","2")
+
+
+// In Guard  
+
+
+type NormalUser = {
+    name:string
+}
+type AdminUser ={
+    name:string
+    role:"admin"
+}
+
+const getUserInfo = (user:NormalUser | AdminUser) =>{
+    
+}
